@@ -1,0 +1,31 @@
+.QA-container {
+    background-image: url('/src/assets/rotated.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 50px;
+}
+
+.QA-container p {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.QA-container h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+@media (max-width: 770px) {
+    .QA-container h1 {
+        margin-bottom: 20px;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 40px;
+    }
+}
