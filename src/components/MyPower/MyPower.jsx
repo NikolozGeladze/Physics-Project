@@ -1,13 +1,14 @@
 import React from 'react'
 import './MyPower.css'
+import { Link } from 'react-router-dom';
 
 export default function MyPower() {
 
     const rows = [
-        { id: 1, label: "I სართულიდან II სართულამდე არბენით", s: 5, h: 2.7, m: 45 },
-        { id: 2, label: "II სართულიდან I სართულამდე ჩარბენით", s: 6, h: 2.7, m: 45 },
-        { id: 3, label: "I სართულიდან II სართულამდე ასვლით", s: 9, h: 2.7, m: 45 },
-        { id: 4, label: "II სართულიდან I სართულამდე ჩასვლით", s: 9, h: 2.7, m: 45 }
+        { id: 1, label: "I - II არბენით", s: 5, h: 2.7, m: 45 },
+        { id: 2, label: "II - I ჩარბენით", s: 6, h: 2.7, m: 45 },
+        { id: 3, label: "I - II ასვლით", s: 9, h: 2.7, m: 45 },
+        { id: 4, label: "II - I ჩასვლით", s: 9, h: 2.7, m: 45 }
     ];
 
     return (

@@ -5,7 +5,7 @@
     background-position: center;
     background-repeat: no-repeat;
     color: white;
-    height: 100%;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -29,6 +29,10 @@
     margin-top: 40px;
 }
 
+.my-power-container table {
+    width: 100%;
+} 
+
 table,
 tr,
 td,
@@ -37,5 +41,11 @@ th {
     padding: 8px;
     text-align: center;
     border-collapse: collapse;
-     background-color: rgb(255, 255, 255, 0.1);
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+@media (max-width: 500px) {
+    .my-power-container {
+        padding: 10px 5px;
+    }
 }

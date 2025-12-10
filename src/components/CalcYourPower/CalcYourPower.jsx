@@ -1,5 +1,6 @@
 import React from "react";
 import "./CalcYourPower.css";
+import { Link } from "react-router-dom";
 
 export default function CalcYourPower() {
     const [powers, setPowers] = React.useState({

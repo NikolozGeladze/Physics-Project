@@ -23,6 +23,7 @@ export default function Information() {
                 </p>
                 <div className="nav-btns">
                     <button className='nav-btn'> <Link className="nav-btn-link" to="/MyPower">ჩემი სიმძლავრე</Link></button>
+                    <button className='nav-btn'> <Link to="/Q&A" className='nav-btn-link'>Q&A</Link></button>
                     <button className='nav-btn'> <Link className="nav-btn-link" to="/CalculateYourPower">გამოთვალე შენი სიმძლავრე</Link></button>
                 </div>
             </div>
